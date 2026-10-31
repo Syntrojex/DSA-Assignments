@@ -1,0 +1,7 @@
+int x;
+x = 7;
+int y = x * 2;   // 14
+cout << y;
+int z = 100 / 7 % 5;   // 14 % 5 = 4
+cout << z; cout << x - y;
+int e = 1; int f = e + 1; cout << f;

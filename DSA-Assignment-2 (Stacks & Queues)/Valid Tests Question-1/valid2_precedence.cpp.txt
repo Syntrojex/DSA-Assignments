@@ -1,0 +1,13 @@
+// precedence, modulo, unary minus, nested blocks, comments
+int a = 7;            // first
+int b = 3;
+int c;
+c = a * b + 10 % 4;   // 21 + 2 = 23
+
+{
+    int d = -(a - b) * 2;   // -8
+    cout << c;
+    cout << d + 100;        // 92
+}
+cout << (a + b) * (a - b) / 2;   // 20
+cout << 2 - -3;                  // 5
